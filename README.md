@@ -17,3 +17,11 @@ git checkout dev
 
 4
 open "C:\code\py-statistics-ml-notes\" folder in vs code
+
+5
+do changes
+save it
+stage changes
+add commit msg
+click on commit
+click on sync 1 up
