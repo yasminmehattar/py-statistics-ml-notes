@@ -1,6 +1,33 @@
 # py-statistics-ml-notes
 My Python Statistics ML &amp; Other notes
 
+0
+search  "git download"
+https://git-scm.com/downloads/win
+
+download
+install ( click next... take defaults)
+
+
+0
+verify
+
+where python
+C:\Python313\python.exe
+
+where pip
+C:\Python313\Scripts\pip.exe
+
+where git
+C:\Program Files\Git\cmd\git.exe
+
+
+0
+update   PATH
+add new variable with 
+    C:\Program Files\Git\cmd\
+
+
 1
 mkdir C:\code\
 cd C:\code\
