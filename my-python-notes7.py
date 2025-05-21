@@ -1,1 +1,1 @@
-print ("abc 7")
+print("abc 7 m")
