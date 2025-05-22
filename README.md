@@ -46,5 +46,5 @@ code "C:\code\py-statistics-ml-notes\"
 // stage changes
 // add commit msg
 // click on commit
-// click on sync 1 up
+// click on sync changes 1 up
 ```
