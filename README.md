@@ -1,25 +1,22 @@
 # py-statistics-ml-notes
 My Python Statistics ML &amp; Other notes
 
-0
-search  "git download"
-https://git-scm.com/downloads/win
 
-download
-install ( click next... take defaults)
+```
+// search  "git download"
+// https://git-scm.com/downloads/win
+// download
+// install ( click next... take defaults)
 
-
-0
-verify
-
+// verify
 where python
-C:\Python313\python.exe
+// C:\Python313\python.exe
 
 where pip
-C:\Python313\Scripts\pip.exe
+// C:\Python313\Scripts\pip.exe
 
 where git
-C:\Program Files\Git\cmd\git.exe
+// C:\Program Files\Git\cmd\git.exe
 
 
 0
@@ -52,3 +49,4 @@ stage changes
 add commit msg
 click on commit
 click on sync 1 up
+```
