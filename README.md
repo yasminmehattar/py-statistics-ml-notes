@@ -41,7 +41,7 @@ git checkout dev
 code "C:\code\py-statistics-ml-notes\"
 
 5
-// do changes
+// do changes 
 // save it
 // stage changes
 // add commit msg
