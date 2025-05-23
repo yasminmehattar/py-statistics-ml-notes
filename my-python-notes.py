@@ -22,3 +22,4 @@ print( employee_name, employee_grade, employee_appraisal_grade, employee_married
 # print("employee_grade:", employee_grade)
 # print("employee_appraisal_grade:", employee_appraisal_grade)
 # print("employee_married:", employee_married)
+print(type(employee_married))
