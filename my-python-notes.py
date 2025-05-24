@@ -110,10 +110,9 @@ print("======== Take input from keyboard =================")
 # string_1 = input("Press Enter to continue...")
 # print(string_1, type(string_1))
 
-integer_1 = int(input("Press Enter to continue..."))
+# integer_1 = int(input("Press enter an integer: "))
+# print(integer_1, type(integer_1))
+
+integer_1 = float(input("Press enter an decimal number: "))
 print(integer_1, type(integer_1))
 
-# string_1 = input("Press Enter to continue...")
-# integer_1 = int(string_1)
-# # print(string_1, type(string_1))
-# print(integer_1, type(integer_1))
