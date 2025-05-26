@@ -113,7 +113,7 @@
 # integer_1 = int(input("Press enter an integer: "))
 # print(integer_1, type(integer_1))
 
-# integer_1 = float(input("Press enter an decimal number: "))
+# integer_1 = int(input("Press enter an decimal number: "))
 # print(integer_1, type(integer_1))
 
 # print("======== Reassign assignments =================")
@@ -153,11 +153,11 @@ print ("num1", num1)
 print ("def")
 """
 
-"""
+'''
 num1 = 1
 print ("num1", num1)
 print ("def")
-"""
+'''
 
 # str1 = """one
 # two
@@ -174,7 +174,7 @@ six
 
 print("========  List   =================")
 
-fruits = ["Apple", 123, "Cherry"]
+fruits = ["Apple", 123, "Cherry"] 
 print(fruits)
 # print(fruits[0])
 # print(fruits[1])
@@ -191,7 +191,7 @@ print(fruits)
 fruits.remove("Banana")
 print(fruits)
 
-list1 = [1, 2, 33, 401, 5555, 5555, 6, 7, 8, 9, 10]
+list1 = [1,2,33,401,5555,5555, 6, 7, 8, 9, 10]
 print(list1)
 list1.remove(401)
 print(list1)
