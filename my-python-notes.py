@@ -153,11 +153,11 @@ print ("num1", num1)
 print ("def")
 """
 
-'''
+"""
 num1 = 1
 print ("num1", num1)
 print ("def")
-'''
+"""
 
 # str1 = """one
 # two
@@ -174,7 +174,7 @@ six
 
 print("========  List   =================")
 
-fruits = ["Apple", 123, "Cherry"] 
+fruits = ["Apple", 123, "Cherry"]
 print(fruits)
 # print(fruits[0])
 # print(fruits[1])
@@ -191,7 +191,7 @@ print(fruits)
 fruits.remove("Banana")
 print(fruits)
 
-list1 = [1,2,33,401,5555,5555, 6, 7, 8, 9, 10]
+list1 = [1, 2, 33, 401, 5555, 5555, 6, 7, 8, 9, 10]
 print(list1)
 list1.remove(401)
 print(list1)
@@ -207,3 +207,42 @@ print(list1)
 
 list1[1] = 3
 print(list1)
+
+list1 = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+print("--------- slice")
+print(list1)
+print(list1[0:2])
+print(list1[3:6])
+
+print("============ count (ele) ==============")
+list2 = [11, 22, 33, 33, 44, 55, 33]
+print(len(list2))
+print(list2.count("33"))
+print(list2.count(33))
+
+print("============ tuples ==============")
+tuple1 = (11, 2, 3, 4, 3, 5)
+print(tuple1, type(tuple1))
+print(tuple1[2])
+print(len(tuple1))
+print(tuple1.count(3))
+st2 = sorted(tuple1)
+print(st2, type(st2))
+st2 = reversed(tuple1)
+print(st2, type(st2))
+
+tuple1 = (11, 12, 13, 14, 15, 16, 17, 18, 19, 20)
+print(tuple1)
+print(tuple1[0:2], type(tuple1[0:2]))
+print(tuple1[3:6], type(tuple1[3:6]))
+print(tuple1)
+
+
+print("========  String   =================")
+my_string = "Hello"
+print(my_string, type(my_string))
+print(my_string[0])
+print(my_string[1])
+# my_string[1] = "a"
+print(my_string[0:1])
+print(my_string[3:60])
