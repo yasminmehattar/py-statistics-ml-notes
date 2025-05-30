@@ -130,13 +130,13 @@
 # print(a, b, c)
 
 # print("========  Print variables   =================")
-# a, b, c = 11, 222, 3
-# print(a, b, c)
-# print("a, b, c", a, b, c)
-# print("a {}, b {}, c {}".format( a, b, c))
-# print("a %d, b %d, c %d" % ( a, b, c))
-#       f-strings (the easiest and most modern way)
-# print(f"a {a}, b {b}, c {c}")
+a, b, c = 11, 222, 3
+print(a, b, c)
+print("a, b, c", a, b, c)
+print("a {}, b {}, c {}".format( a, b, c))
+print("a %d, b %d, c %d" % ( a, b, c))
+    #   f-strings (the easiest and most modern way)
+print(f"a {a}, b {b}, c {c}")
 
 # print("========  Comments   =================")
 # print ("abc")
@@ -172,273 +172,273 @@ six
 
 # ==========================
 
-print("========  List   =================")
+# print("========  List   =================")
 
-fruits = ["Apple", 123, "Cherry"] 
-print(fruits)
-# print(fruits[0])
-# print(fruits[1])
-# print(fruits[2])
-fruits[1] = "Orange"
-print(fruits)
-fruits.append("Banana")
-fruits.append("Grapes")
-print(fruits)
-fruits.insert(1, "Banana")
-print(fruits)
-fruits.remove("Cherry")
-print(fruits)
-fruits.remove("Banana")
-print(fruits)
+# fruits = ["Apple", 123, "Cherry"] 
+# print(fruits)
+# # print(fruits[0])
+# # print(fruits[1])
+# # print(fruits[2])
+# fruits[1] = "Orange"
+# print(fruits)
+# fruits.append("Banana")
+# fruits.append("Grapes")
+# print(fruits)
+# fruits.insert(1, "Banana")
+# print(fruits)
+# fruits.remove("Cherry")
+# print(fruits)
+# fruits.remove("Banana")
+# print(fruits)
 
-list1 = [1,2,33,401,5555,5555, 6, 7, 8, 9, 10]
-print(list1)
-list1.remove(401)
-print(list1)
-list1.pop()
-print(list1)
-list1.pop(0)
-print(list1)
-
-# list1.pop(1)
+# list1 = [1,2,33,401,5555,5555, 6, 7, 8, 9, 10]
 # print(list1)
-# list1.insert(1,3)
+# list1.remove(401)
+# print(list1)
+# list1.pop()
+# print(list1)
+# list1.pop(0)
 # print(list1)
 
-list1[1] = 3
-print(list1)
+# # list1.pop(1)
+# # print(list1)
+# # list1.insert(1,3)
+# # print(list1)
 
-list1 = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-print("--------- slice")
-print(list1)
-print(list1[0:2])
-print(list1[3:6])
+# list1[1] = 3
+# print(list1)
 
-print("============ count (ele) ==============")
-list2 = [11, 22, 33, 33, 44, 55, 33]
-print(len(list2))
-print(list2.count("33"))
-print(list2.count(33))
+# list1 = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+# print("--------- slice")
+# print(list1)
+# print(list1[0:2])
+# print(list1[3:6])
 
-print("============ tuples ==============")
-tuple1 = (11, 2, 3, 4, 3, 5)
-print(tuple1, type(tuple1))
-print(tuple1[2])
-print(len(tuple1))
-print(tuple1.count(3))
-st2 = sorted(tuple1)
-print(st2, type(st2))
-st2 = reversed(tuple1)
-print(st2, type(st2))
+# print("============ count (ele) ==============")
+# list2 = [11, 22, 33, 33, 44, 55, 33]
+# print(len(list2))
+# print(list2.count("33"))
+# print(list2.count(33))
 
-tuple1 = (11, 12, 13, 14, 15, 16, 17, 18, 19, 20)
-print(tuple1)
-print(tuple1[0:2], type(tuple1[0:2]))
-print(tuple1[3:6], type(tuple1[3:6]))
-print(tuple1)
+# print("============ tuples ==============")
+# tuple1 = (11, 2, 3, 4, 3, 5)
+# print(tuple1, type(tuple1))
+# print(tuple1[2])
+# print(len(tuple1))
+# print(tuple1.count(3))
+# st2 = sorted(tuple1)
+# print(st2, type(st2))
+# st2 = reversed(tuple1)
+# print(st2, type(st2))
 
-
-print("========  String   =================")
-my_string = "Hello"
-print(my_string, type(my_string))
-print(my_string[0])
-print(my_string[1])
-# my_string[1] = "a"
-print(my_string[0:1])
-print(my_string[3:60])
+# tuple1 = (11, 12, 13, 14, 15, 16, 17, 18, 19, 20)
+# print(tuple1)
+# print(tuple1[0:2], type(tuple1[0:2]))
+# print(tuple1[3:6], type(tuple1[3:6]))
+# print(tuple1)
 
 
-print("========  Sets   =================")
-
-set1 = {11, 22, 33, 44, 55, 66, 77, 88, 99}
-print(set1, type(set1))
-
-set2 = {11, 22, 33, 44, 55, 66, 77, 88, 99, 11, 22, 33, 44, 55, 66, 77, 88, 99}
-print(set2, type(set2))
-
-set2.add(11)
-print(set2, type(set2))
-
-set2.add(12)
-print(set2, type(set2))
-
-set2.remove(11)
-print(set2, type(set2))
-
-print(11 in set2)
-print(12 in set2)
-
-list1 = [11, 22, 33, 44, 55, 66, 77, 88, 99, 11]
+# print("========  String   =================")
+# my_string = "Hello"
+# print(my_string, type(my_string))
+# print(my_string[0])
+# print(my_string[1])
+# # my_string[1] = "a"
+# print(my_string[0:1])
+# print(my_string[3:60])
 
 
-print("========  Maps   =================")
+# print("========  Sets   =================")
 
-# list1 = [1, 2]
-# set1 = {1, 2}
-dict1 = {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+# set1 = {11, 22, 33, 44, 55, 66, 77, 88, 99}
+# print(set1, type(set1))
 
-print(1 in dict1)
-print(9 in dict1)
+# set2 = {11, 22, 33, 44, 55, 66, 77, 88, 99, 11, 22, 33, 44, 55, 66, 77, 88, 99}
+# print(set2, type(set2))
 
-print(dict1[5])
+# set2.add(11)
+# print(set2, type(set2))
 
-dict1[6] = 35
-print(dict1)
+# set2.add(12)
+# print(set2, type(set2))
 
-dict1[6] = 36
-print(dict1)
+# set2.remove(11)
+# print(set2, type(set2))
 
-dict1.pop(4)
-print(dict1)
+# print(11 in set2)
+# print(12 in set2)
 
-dict1.clear()
-print(dict1)
+# list1 = [11, 22, 33, 44, 55, 66, 77, 88, 99, 11]
 
-print("========  If-Else   =================")
 
-num1 = 3
+# print("========  Maps   =================")
+
+# # list1 = [1, 2]
+# # set1 = {1, 2}
+# dict1 = {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+
+# print(1 in dict1)
+# print(9 in dict1)
+
+# print(dict1[5])
+
+# dict1[6] = 35
+# print(dict1)
+
+# dict1[6] = 36
+# print(dict1)
+
+# dict1.pop(4)
+# print(dict1)
+
+# dict1.clear()
+# print(dict1)
+
+# print("========  If-Else   =================")
+
+# num1 = 3
+# # num1 = 4
+# if num1 == 3:
+#     print("num1 is 3")
+#     print("num1 is 3")
+#     print("num1 is 3")
+# else:
+#     print("num1 is not 3")
+#     print("num1 is not 3")
+#     print("num1 is not 3")
+
+# print("========  If-ElIf-Else   =================")
+# num1 = 1
+# if num1 == 3:
+#     print("num1 is 3")
+# elif num1 == 4:
+#     print("num1 is 4")
+# else:
+#     print("num1 is not 3 and not 4")
+
+# if num1 == 3:
+#     print("num1 is 3")
+# else:
+#     if num1 == 4:
+#         print("num1 is 4")
+#     else:
+#         print("num1 is not 3 and not 4")
+
+
+# num1 = 3
 # num1 = 4
-if num1 == 3:
-    print("num1 is 3")
-    print("num1 is 3")
-    print("num1 is 3")
-else:
-    print("num1 is not 3")
-    print("num1 is not 3")
-    print("num1 is not 3")
+# if num1 == 3 or num1 == 4:
+#     print("num1 is 3 or 4")
 
-print("========  If-ElIf-Else   =================")
-num1 = 1
-if num1 == 3:
-    print("num1 is 3")
-elif num1 == 4:
-    print("num1 is 4")
-else:
-    print("num1 is not 3 and not 4")
-
-if num1 == 3:
-    print("num1 is 3")
-else:
-    if num1 == 4:
-        print("num1 is 4")
-    else:
-        print("num1 is not 3 and not 4")
+# num1 = 1
+# if num1 != 3 and num1 != 4:
+#     print("num1 is not 3 and not 4")
 
 
-num1 = 3
-num1 = 4
-if num1 == 3 or num1 == 4:
-    print("num1 is 3 or 4")
+# print("========  For Loop   =================")
+# list1 = [1, 2, 33, 1, 2, 33]
+# for key in list1:
+#     print(key, end=", ")
+# print(33 in list1)
 
-num1 = 1
-if num1 != 3 and num1 != 4:
-    print("num1 is not 3 and not 4")
+# set1 = {1, 2, 33, 1, 2, 33}
+# for key in set1:
+#     print(key, end=", ")
+# print(33 in set1)
 
+# dict1 = {"a": 1, "b": 2, "c": 3, "d": 4, "e": 5}
+# print(dict1, type(dict1))
+# for key in dict1:
+#     print(key, end=", ")
+# print()
+# for key in dict1:
+#     print(dict1[key], end=", ")
 
-print("========  For Loop   =================")
-list1 = [1, 2, 33, 1, 2, 33]
-for key in list1:
-    print(key, end=", ")
-print(33 in list1)
+# print()
+# print("========  For Loop with range   =================")
+# for i in range(30):
+#     print(i, end=", ")
+# print()
+# for i in range(10, 20):
+#     print(i, end=", ")
+# print()
+# for i in range(10, 20, 2):
+#     print(i, end=", ")
+# print()
 
-set1 = {1, 2, 33, 1, 2, 33}
-for key in set1:
-    print(key, end=", ")
-print(33 in set1)
+# for i in range(10, 0, -2):
+#     print(i, end=", ")
+# print()
 
-dict1 = {"a": 1, "b": 2, "c": 3, "d": 4, "e": 5}
-print(dict1, type(dict1))
-for key in dict1:
-    print(key, end=", ")
-print()
-for key in dict1:
-    print(dict1[key], end=", ")
+# print("========  While Loop   =================")
+# num1 = 0
+# while num1 * num1 <= 100:
+#     if num1 == 3:
+#         num1 = num1 + 1
+#         continue
+#         # pass
+#     print(num1 * num1, end=", ")
+#     num1 = num1 + 1
+#     if num1 == 5:
+#         break
+# print()
 
-print()
-print("========  For Loop with range   =================")
-for i in range(30):
-    print(i, end=", ")
-print()
-for i in range(10, 20):
-    print(i, end=", ")
-print()
-for i in range(10, 20, 2):
-    print(i, end=", ")
-print()
-
-for i in range(10, 0, -2):
-    print(i, end=", ")
-print()
-
-print("========  While Loop   =================")
-num1 = 0
-while num1 * num1 <= 100:
-    if num1 == 3:
-        num1 = num1 + 1
-        continue
-        # pass
-    print(num1 * num1, end=", ")
-    num1 = num1 + 1
-    if num1 == 5:
-        break
-print()
-
-print("========  Functions   =================")
+# print("========  Functions   =================")
 
 
-def square(num):
-    return num * num
+# def square(num):
+#     return num * num
 
 
-def cube(num):
-    return num * num * num
+# def cube(num):
+#     return num * num * num
 
 
-num1 = 4
-print(square(num1), cube(num1))
+# num1 = 4
+# print(square(num1), cube(num1))
 
 
-def avg1(a, b):
-    return (a + b) / 2
+# def avg1(a, b):
+#     return (a + b) / 2
 
 
-print(avg1(10, 20))
-print(avg1(50, 70))
+# print(avg1(10, 20))
+# print(avg1(50, 70))
 
-import math
+# import math
 
-print(max(1, 2))
-print(min(1, 2))
-print(math.lcm(3, 5))
+# print(max(1, 2))
+# print(min(1, 2))
+# print(math.lcm(3, 5))
 
-with open("f1.txt", "w") as f:
-    f.write("This is a sample file.\nIt has multiple lines.\nFor demonstration.")
+# with open("f1.txt", "w") as f:
+#     f.write("This is a sample file.\nIt has multiple lines.\nFor demonstration.")
 
 
-with open("ym.txt", "w") as f:
-    # with open("ym.txt", "a") as f:
-    f.write("yasmin\tmehattar\n")
-    f.write("\tdone\n")
-    f.write("a\tdone\n")
-    f.write("ab\tdone\n")
-    f.write("abc\tdone\n")
-    f.write("abcd\tdone\n")
-    f.write("abcde\tdone\n")
+# with open("ym.txt", "w") as f:
+#     # with open("ym.txt", "a") as f:
+#     f.write("yasmin\tmehattar\n")
+#     f.write("\tdone\n")
+#     f.write("a\tdone\n")
+#     f.write("ab\tdone\n")
+#     f.write("abc\tdone\n")
+#     f.write("abcd\tdone\n")
+#     f.write("abcde\tdone\n")
 
-class Employee:
-    def __init__(self, name, grade, appraisal_grade, married):
-        self.name = name
-        self.grade = grade
-        self.appraisal_grade = appraisal_grade
-        self.married = married
+# class Employee:
+#     def __init__(self, name, grade, appraisal_grade, married):
+#         self.name = name
+#         self.grade = grade
+#         self.appraisal_grade = appraisal_grade
+#         self.married = married
 
-    def display(self):
-        print(
-            f"Name: {self.name}, Grade: {self.grade}, Appraisal Grade: {self.appraisal_grade}, Married: {self.married}"
-        )
+#     def display(self):
+#         print(
+#             f"Name: {self.name}, Grade: {self.grade}, Appraisal Grade: {self.appraisal_grade}, Married: {self.married}"
+#         )
 
-emp1 = Employee("Yasmin Mehattar", 9, 4.5, False)
-emp1.display()
+# emp1 = Employee("Yasmin Mehattar", 9, 4.5, False)
+# emp1.display()
 
-emp2 = Employee("John Doe", 10, 4.8, True)
-emp2.display()
+# emp2 = Employee("John Doe", 10, 4.8, True)
+# emp2.display()

@@ -46,6 +46,27 @@
 # j=2
 # print(h+j)#we can use + operator also to combine for numbers it work as math operator
 # print('Hello', 'World')
-import random
+# import random
 
-print(random.randrange(1, 10))
+# print(random.randrange(1, 10))
+# B="yasmin, Mehattar"
+# print(B[:5]) #By leaving out the start index, the range will start at the first character
+# print(B[4:10])
+# print(B[2:])
+# print(B.upper())
+# print(B.lower())
+# print(B.strip())#removes white space from the end or beginning
+# print(B.replace("i", "ee"))
+# print(B.split(","))
+# txt = "Hello \bWorld!"
+# print(txt)
+# txt= "yasmin \tMehattar"
+# print(txt)
+# txt="yasmin \\Mehattar"
+# print(txt)
+# print(f"my name is {txt}")
+# print(f"good girl\n{txt}")
+a="Hello"
+b=35
+print(bool(a))
+print(bool(b))
