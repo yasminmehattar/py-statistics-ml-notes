@@ -83,3 +83,26 @@ Any list, tuple, set, and dictionary are True, except empty ones.
 #         print("Yes")
 # else:
 #         print("NO")
+'''List items are ordered, changeable, and allow duplicate values.
+
+List items are indexed,'''
+thislist = ["apple", "banana", "cherry", "apple", "cherry"]
+list=(("yasmeen", "Mehattar", "sushmit"))
+tuple=("fruits", "names", "greetings")
+print(thislist)
+print(len(thislist))
+print(thislist[3])
+thislist.append("guava")
+print(thislist)
+thislist.insert(2, "watermelon")
+print(thislist)
+thislist.extend(list)
+print(thislist)
+thislist.extend(tuple)
+print(thislist)
+thislist.pop()
+print(thislist)
+thislist.pop(6)
+print(thislist)
+thislist.remove("cherry")
+print(thislist)
