@@ -66,7 +66,20 @@
 # print(txt)
 # print(f"my name is {txt}")
 # print(f"good girl\n{txt}")
-a="Hello"
-b=35
-print(bool(a))
-print(bool(b))
+# a="Hello"
+# b=35
+# print(bool(a))
+# print(bool(b))
+'''Any string is True, except empty strings.
+
+Any number is True, except 0.
+
+Any list, tuple, set, and dictionary are True, except empty ones.
+ if you have an object that is made from a class with a __len__ function that returns 0 or False:'''
+# def myfunction():
+#     return True
+
+# if myfunction():
+#         print("Yes")
+# else:
+#         print("NO")
