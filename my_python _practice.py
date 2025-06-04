@@ -145,6 +145,35 @@ List items are indexed,'''
 # (green, yellow, *red)=Newtuple
 # print(green)
 # print(red)
-thistuple=("orange", "apple",)
-for i in range(len(thistuple)):
-    print(thistuple[i])
+# thistuple=("orange", "apple",)
+# for i in range(len(thistuple)):
+#     print(thistuple[i])
+# this_tuple=("apple","orange",)
+# i=0
+# while i<(len(this_tuple)):
+#     print(this_tuple[i])
+#     i+=1
+# mytuple=this_tuple*3
+# print(mytuple)  
+# new_tuple=(1,2,3) 
+# A_tuple=new_tuple+this_tuple
+# print(A_tuple)
+# x=mytuple.count("orange")#	Returns the number of times a specified value occurs in a tuple
+# print(x)
+# y=mytuple.index("apple")
+# print(y)
+thisset = set(("apple", "banana", "cherry")) # note the double round-brackets
+# print(thisset)
+# thisset = {"apple", "banana", "cherry"}
+
+# print("banana" not in thisset)
+# list=[1,2,3]
+# thisset.update(list)
+# print(thisset)
+# thisset.add(1)
+# print(thisset)
+# thisset.remove("banana")
+# print(thisset)
+x=thisset.pop()
+print(x)
+print(thisset)
