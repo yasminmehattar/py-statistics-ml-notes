@@ -126,8 +126,25 @@ List items are indexed,'''
 # print(type(my_tuple))
 # mylist=list(("list", "tuple"))
 # print(type(mylist))
-thistuple = ("apple", "banana", "cherry")
-tuple1=list(thistuple)
-tuple1.append("orange")
-thistuple=tuple(tuple1)
-print(thistuple)
+# thistuple = ("apple", "banana", "cherry")
+# tuple1=list(thistuple)
+# tuple1.append("orange")
+# thistuple=tuple(tuple1)
+# print(thistuple)
+# thistuple = ("apple", "banana", "cherry")
+# y = ("orange",)
+# thistuple += y
+
+# print(thistuple)#When creating a tuple with only one item, remember to include a comma after the item, otherwise it will not be identified as a tuple.
+# thistuple=("apple","orange","guava")
+# y=list(thistuple)
+# y.remove("apple")
+# thistuple=tuple(y)
+# print(thistuple)
+# Newtuple=("apple","orange","guava", "apple","orange","guava")
+# (green, yellow, *red)=Newtuple
+# print(green)
+# print(red)
+thistuple=("orange", "apple",)
+for i in range(len(thistuple)):
+    print(thistuple[i])
