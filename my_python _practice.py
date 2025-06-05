@@ -161,8 +161,8 @@ List items are indexed,'''
 # x=mytuple.count("orange")#	Returns the number of times a specified value occurs in a tuple
 # print(x)
 # y=mytuple.index("apple")
-# print(y)
-thisset = set(("apple", "banana", "cherry")) # note the double round-brackets
+# # print(y)
+# thisset = set(("apple", "banana", "cherry")) # note the double round-brackets
 # print(thisset)
 # thisset = {"apple", "banana", "cherry"}
 
@@ -174,6 +174,30 @@ thisset = set(("apple", "banana", "cherry")) # note the double round-brackets
 # print(thisset)
 # thisset.remove("banana")
 # print(thisset)
-x=thisset.pop()
-print(x)
-print(thisset)
+# x=thisset.pop()#pop() method to remove an item, but this method will remove a random item, so you cannot be sure what item that gets removed.
+# print(x)
+# print(thisset)
+set_1={1,2,3,4,4}
+set_2={2,1,7,8,9,5}
+# set_1.add(6)
+# print(set_1)
+# # set_1.clear()
+# # print(set_1)
+# # set_3=set_1.copy()
+# # print(set_3)
+# z=set_1-set_2 # This returns a new set and leaves set1 unchanged.   
+# print(z)
+# print(set_1)
+# set_1-=set_2 #It modifies the original set directly.It does not return anything (technically, it returns None).
+# print(set_1)
+set_1.discard(4)
+print(set_1)
+G=set_1&set_2# The set to search for equal items in
+print(G)
+'''Return True if all items in set x are present in set y: issubset() Use <= as a shortcut
+   Return True if no items in set x is present in set y:isdisjoint()
+   Return True if all items set y are present in set x: issuperset()Use >= as a shortcut
+   The pop() method removes a random item from the set.
+   symmetric_difference() method returns a set that contains all items from both set, but not the items that are present in both sets.
+   
+'''
