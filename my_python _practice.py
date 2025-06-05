@@ -185,8 +185,8 @@ print(set_1)
 # print(set_1)
 # set_3=set_1.copy()
 # print(set_3)
-z=set_1-set_2    
+z=set_1-set_2 # This returns a new set and leaves set1 unchanged.   
 print(z)
 print(set_1)
-set_1-=set_2
+set_1-=set_2 #It modifies the original set directly.It does not return anything (technically, it returns None).
 print(set_1)
