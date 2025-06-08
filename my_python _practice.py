@@ -177,8 +177,8 @@ List items are indexed,'''
 # x=thisset.pop()#pop() method to remove an item, but this method will remove a random item, so you cannot be sure what item that gets removed.
 # print(x)
 # print(thisset)
-set_1={1,2,3,4,4}
-set_2={2,1,7,8,9,5}
+# set_1={1,2,3,4,4}
+# set_2={2,1,7,8,9,5}
 # set_1.add(6)
 # print(set_1)
 # # set_1.clear()
@@ -190,14 +190,32 @@ set_2={2,1,7,8,9,5}
 # print(set_1)
 # set_1-=set_2 #It modifies the original set directly.It does not return anything (technically, it returns None).
 # print(set_1)
-set_1.discard(4)
-print(set_1)
-G=set_1&set_2# The set to search for equal items in
-print(G)
+# set_1.discard(4)
+# print(set_1)
+# G=set_1&set_2# The set to search for equal items in
+# print(G)
 '''Return True if all items in set x are present in set y: issubset() Use <= as a shortcut
    Return True if no items in set x is present in set y:isdisjoint()
    Return True if all items set y are present in set x: issuperset()Use >= as a shortcut
    The pop() method removes a random item from the set.
    symmetric_difference() method returns a set that contains all items from both set, but not the items that are present in both sets.
-   
+   As a shortcut, you can use the ^ operator instead
 '''
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = thisdict["model"]
+y=thisdict.get("year")
+print(x , y)
+Z=thisdict.keys()
+print(Z)
+thisdict['color']="white"
+print(Z)
+t=thisdict.values()
+print(t)
+thisdict["model"]="mast"
+print(t)
+r=thisdict.items()
+print(r)
