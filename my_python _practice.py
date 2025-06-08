@@ -201,21 +201,72 @@ List items are indexed,'''
    symmetric_difference() method returns a set that contains all items from both set, but not the items that are present in both sets.
    As a shortcut, you can use the ^ operator instead
 '''
-thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# x = thisdict["model"]
+# y=thisdict.get("year")
+# print(x , y)
+# Z=thisdict.keys()
+# print(Z)
+# thisdict['color']="white"
+# print(Z)
+# t=thisdict.values()
+# print(t)
+# thisdict["model"]="mast"
+# print(t)
+# r=thisdict.items()
+# print(
+# )
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# thisdict.update({"year": 2020})
+# thisdict.pop("model")
+# print(thisdict)
+# thisdict.popitem()
+# print(thisdict)
+# del thisdict["brand"]
+# print(thisdict)
+# thisdict =	{
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# for x in thisdict:
+#     print(x)#for printing keys
+# for x in thisdict:
+#     print(thisdict[x])#for printing the values
+
+# for x in thisdict.values():
+#     print(x)
+# for x,y in thisdict.items():
+#     print(x,y)
+# mydict=thisdict.copy()
+# print(mydict)
+# my_dict=dict(thisdict)
+# print(my_dict)
+child1={
+    "name":"yasmin",
+    "year": 2020
 }
-x = thisdict["model"]
-y=thisdict.get("year")
-print(x , y)
-Z=thisdict.keys()
-print(Z)
-thisdict['color']="white"
-print(Z)
-t=thisdict.values()
-print(t)
-thisdict["model"]="mast"
-print(t)
-r=thisdict.items()
-print(r)
+child2={
+    "name":"mehattar",
+    "year": 2021
+}
+child3={
+    "name":"YMehattar",
+    "class": "ten",
+    "year":2022
+}
+myfamily= {
+    "one":child1,
+    "two":child2,
+    "three":child3
+}
+print(myfamily)
+print(myfamily["three"])
