@@ -250,23 +250,32 @@ List items are indexed,'''
 # print(mydict)
 # my_dict=dict(thisdict)
 # print(my_dict)
-child1={
-    "name":"yasmin",
-    "year": 2020
-}
-child2={
-    "name":"mehattar",
-    "year": 2021
-}
-child3={
-    "name":"YMehattar",
-    "class": "ten",
-    "year":2022
-}
-myfamily= {
-    "one":child1,
-    "two":child2,
-    "three":child3
-}
-print(myfamily)
-print(myfamily["three"])
+# child1={
+#     "name":"yasmin",
+#     "year": 2020
+# }
+# child2={
+#     "name":"mehattar",
+#     "year": 2021
+# }
+# child3={
+#     "name":"YMehattar",
+#     "class": "ten",
+#     "year":2022
+# }
+# myfamily= {
+#     "one":child1,
+#     "two":child2,
+#     "three":child3
+# }
+# print(myfamily)
+# print(myfamily["three"])
+a = 330
+b = 330
+print("A") if a > b else print("=") if a == b else print("B")
+a = 200
+b = 33
+c = 500
+if b<a or c<b:
+    print("one condition is true")
+    
