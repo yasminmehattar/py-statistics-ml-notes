@@ -279,3 +279,83 @@ List items are indexed,'''
 # if b<a or c<b:
 #     print("one condition is true")
     
+# day = 8
+# match day:
+#     case 1|2|3|4|5:
+#         print("this is a weekday")
+#     case 6|7:
+#         print("this is a weekend")
+#     case _:
+#         print("no other day")
+
+# day = 6
+# match day:
+#     case 1:
+#         print("Monday")
+#     case 2:
+#         print("Tuesday") 
+#     case 3:
+#         print("Wednesday")
+#     case 4:
+#         print("THursday")
+#     case 5:
+#         print("friday")
+#     case 6:
+#         print("Saturday")
+#     case 7:
+#         print("sunday")
+#     case _:
+#         print("no other day")   
+# month = 7
+# day = 4
+# match day:
+#   case 1 | 2 | 3 | 4 | 5 if month in(1,2,3,4):
+#     print("A weekday in Jan-April")
+#   case 1 | 2 | 3 | 4 | 5 if month == 5:
+#     print("A weekday in May")
+#   case _:
+#     print("No match")    
+
+# i=1
+# while i < 6:
+#     print(i)
+#     i += 1
+
+# i=1
+# while i < 9:
+#     print(i)
+#     if i == 6:
+#         break
+#     i +=1
+# i = 1
+# while i < 6:
+#     print(i)
+#     if i == 3:
+#         i += 1  # increment before continue
+#         continue
+#     i += 1
+
+# i=1
+# while i < 6:
+#       i += 1
+#       if i == 3:
+#           continue
+#       print(i)
+# fruits = ["banana","apple","guava"]
+# for x in fruits:
+#      print(x)
+# fruits = ["banana","apple","guava"]
+# for x in fruits:
+#      print(x)
+#      if x == "apple":
+#            break
+# fruits = ["banana","apple","guava"]
+# for x in fruits:
+#      if x == "apple":
+#           break
+#      print(x)
+# fruits = ["apple", "banana", "cherry"]
+# for x in fruits:
+#   if x == "banana":
+#     continue
+#   print(x) 
