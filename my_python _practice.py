@@ -335,20 +335,20 @@ List items are indexed,'''
 #         continue
 #     i += 1
 
-i=1
-while i < 6:
-      i += 1
-      if i == 3:
-          continue
-      print(i)
-fruits = ["banana","apple","guava"]
-for x in fruits:
-     print(x)
-fruits = ["banana","apple","guava"]
-for x in fruits:
-     print(x)
-     if x == "apple":
-           break
+# i=1
+# while i < 6:
+#       i += 1
+#       if i == 3:
+#           continue
+#       print(i)
+# fruits = ["banana","apple","guava"]
+# for x in fruits:
+#      print(x)
+# fruits = ["banana","apple","guava"]
+# for x in fruits:
+#      print(x)
+#      if x == "apple":
+#            break
 fruits = ["banana","apple","guava"]
 for x in fruits:
      if x == "apple":
