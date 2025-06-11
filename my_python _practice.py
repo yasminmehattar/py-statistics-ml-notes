@@ -349,15 +349,63 @@ List items are indexed,'''
 #      print(x)
 #      if x == "apple":
 #            break
-fruits = ["banana","apple","guava"]
-for x in fruits:
-     if x == "apple":
-          break
-     print(x)
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-  if x == "banana":
-    continue
-  print(x) 
-  for x in range(6):
-   print(x) 
+# fruits = ["banana","apple","guava"]
+# for x in fruits:
+#      if x == "apple":
+#           break
+#      print(x)
+# fruits = ["apple", "banana", "cherry"]
+# for x in fruits:
+#   if x == "banana":
+#     continue
+#   print(x) 
+#   for x in range(6):
+#    print(x) 
+# for x in range(2, 6):
+#   print(x)
+# for x in range(2,100,5):
+#    print(x)
+# else:
+#    print("All finished")
+# for x in range(2,50):
+#    if x == 25:
+#       continue
+#    print(x)
+# else:
+#    print("All finished")
+# for x in range(2,50):
+#    if x == 25:
+#       break
+#    print(x)
+# else:
+#    print("All finished")
+# for x in range(2,50):
+#     print(x)
+#     if x == 25:
+#       continue
+  
+# else:
+#    print("All finished")
+# for x in range(2, 30):
+#     print(x)  # This always runs
+#     if x == 25:
+#         continue  # Skips the rest below for x == 25
+#     print(f"{x} is not 25")  # This will NOT run when x == 25
+# else:
+#     print("All finished")
+# for x in range(2, 30):
+#     print(x)  # This always runs
+#     if x == 25:
+#         break  # stops the loop immediately if x == 25
+#     print(f"{x} is not 25")  # This will NOT run when x == 25
+# else:
+#     print("All finished")
+# -----Nested loops -------
+# fruits =["apple","banana","guava"]
+# biscuits =["cookies","goodday","mariegold"]
+# for x in fruits:
+#     for y in biscuits:
+#         print(x, y)
+
+for x in [0, 1, 2]:
+  pass
