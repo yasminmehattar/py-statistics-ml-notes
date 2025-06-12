@@ -407,5 +407,58 @@ List items are indexed,'''
 #     for y in biscuits:
 #         print(x, y)
 
-for x in [0, 1, 2]:
-  pass
+# for x in [0, 1, 2]:
+#   pass
+
+#------Functions------------
+# def fruits():
+#     print("fruits is function name")
+# fruits()
+
+# def fruits(one,two):
+#     print(one+" "+ two +" "+ 'are fruits')
+# fruits("apple", "banana")
+# fruits("guava","vana")
+
+# def fruits(*names):
+#     print("i have fruits those are:" + " ," .join(names))
+# fruits(" apple", "guava","banana")
+
+# def fruits(*names):
+#     print("My favaourite fruit is:" + " "+ names[3])
+# fruits("apple", "banana" , "guava","berry") 
+ 
+# def fruits(three, one, two):
+#     print("my favourite fruit is:"+ " "+ two)
+# fruits(one="apple",two="banana", three="guava")
+
+# def my_function(country = "Norway"):
+#   print("I am from " + country)
+
+# my_function("Sweden")
+# my_function("India")
+# my_function()
+# my_function("Brazil")
+
+def function(food):
+    for x in food:
+        print(x)
+
+fruits=["apple","banana","guava"] 
+gadgets=["tv","computer","mouse"]
+
+function(fruits)
+function(gadgets)  
+
+def yasmin():
+    names=["yaseen","gouse","shakerun"]
+    for x in names:
+        print(x)
+yasmin()
+
+def mehattar(x):
+    return 3*x
+print(mehattar(3))
+print(mehattar(6))
+print(mehattar(9))
+print(mehattar(12))
