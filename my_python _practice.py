@@ -462,3 +462,18 @@ print(mehattar(3))
 print(mehattar(6))
 print(mehattar(9))
 print(mehattar(12))
+
+def my_function(x, /):
+  print(x)
+
+my_function(3)
+
+def my_function(x):
+  print(x)
+
+my_function(x = 3)
+
+def my_function(*, x):
+  print(x)
+
+my_function(x = 3)
