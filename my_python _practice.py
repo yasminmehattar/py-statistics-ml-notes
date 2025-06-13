@@ -440,40 +440,58 @@ List items are indexed,'''
 # my_function()
 # my_function("Brazil")
 
-def function(food):
-    for x in food:
-        print(x)
+# def function(food):
+#     for x in food:
+#         print(x)
 
-fruits=["apple","banana","guava"] 
-gadgets=["tv","computer","mouse"]
+# fruits=["apple","banana","guava"] 
+# gadgets=["tv","computer","mouse"]
 
-function(fruits)
-function(gadgets)  
+# function(fruits)
+# function(gadgets)  
 
-def yasmin():
-    names=["yaseen","gouse","shakerun"]
-    for x in names:
-        print(x)
-yasmin()
+# def yasmin():
+#     names=["yaseen","gouse","shakerun"]
+#     for x in names:
+#         print(x)
+# yasmin()
 
-def mehattar(x):
-    return 3*x
-print(mehattar(3))
-print(mehattar(6))
-print(mehattar(9))
-print(mehattar(12))
+# def mehattar(x):
+#     return 3*x
+# print(mehattar(3))
+# print(mehattar(6))
+# print(mehattar(9))
+# print(mehattar(12))
 
-def my_function(x, /):
-  print(x)
+# def my_function(x, /):
+#   print(x)
 
-my_function(3)
+# my_function(3)
 
-def my_function(x):
-  print(x)
+# def my_function(x):
+#   print(x)
 
-my_function(x = 3)
+# my_function(x = 3)
 
-def my_function(*, x):
-  print(x)
+# def my_function(*, x):
+#   print(x)
 
-my_function(x = 3)
+# my_function(x = 3)
+
+x=lambda a:a+6
+print(x(6))
+
+x=lambda a,b:a*b
+print(x(6,6))
+
+def myfun(n):
+    return lambda a:a*n
+mytwo=myfun(2)
+mythree=myfun(3)
+print(mytwo(6))
+print(mythree(6))
+
+cars=["apple","banana","apple","guava"]
+cars.remove("apple")
+cars.pop(2)
+print(cars)
