@@ -495,3 +495,9 @@ cars=["apple","banana","apple","guava"]
 cars.remove("apple")
 cars.pop(2)
 print(cars)
+
+class one:
+    X=6
+print(one)
+y=one()
+print(y.X)
