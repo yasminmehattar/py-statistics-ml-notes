@@ -564,6 +564,29 @@ x.board()
 print(x.graduationyear)
 x.slate()
 
+new=("all","every","and")
+# w=iter(new)
+# print(next(w))
+for c in new:
+    print(c)
+
+class oneclass():
+    def __iter__(self):
+        self.a=1
+        return self
+    def __next__(self):
+        if self.a<=15:
+            x=self.a
+            self.a+=1
+            return x
+        else:
+            raise StopIteration
+obj= oneclass()
+another=iter(obj)
+for y in another:
+    print(y)
+
+
 
 
 
