@@ -511,7 +511,14 @@ class myclass:
 p= myclass( 'John',30)
 print(p)
 
-
+class yasmin:
+    def __init__(yes, name, age):
+        yes.name=name
+        yes.age=age
+    def mehattar(no):
+        print("my name is"+ " "+no.name +" " +"my age is"+ str(no.age))
+obj=yasmin("good",25)
+obj.mehattar()
 
 
     
