@@ -478,26 +478,42 @@ List items are indexed,'''
 
 # my_function(x = 3)
 
-x=lambda a:a+6
-print(x(6))
+# x=lambda a:a+6
+# print(x(6))
 
-x=lambda a,b:a*b
-print(x(6,6))
+# x=lambda a,b:a*b
+# print(x(6,6))
 
-def myfun(n):
-    return lambda a:a*n
-mytwo=myfun(2)
-mythree=myfun(3)
-print(mytwo(6))
-print(mythree(6))
+# def myfun(n):
+#     return lambda a:a*n
+# mytwo=myfun(2)
+# mythree=myfun(3)
+# print(mytwo(6))
+# print(mythree(6))
 
-cars=["apple","banana","apple","guava"]
-cars.remove("apple")
-cars.pop(2)
-print(cars)
+# cars=["apple","banana","apple","guava"]
+# cars.remove("apple")
+# cars.pop(2)
+# print(cars)
 
-class one:
-    X=6
-print(one)
-y=one()
-print(y.X)
+# class one:
+#     X=6
+# print(one)
+# y=one()
+# print(y.X)
+
+class myclass:
+    def __init__(self, name, age):
+        self.name=name
+        self.age=age
+    def __str__(a):
+        return f"{a.name} ({a.age})"
+p= myclass( 'John',30)
+print(p)
+
+
+
+
+    
+
+
