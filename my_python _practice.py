@@ -502,23 +502,69 @@ List items are indexed,'''
 # y=one()
 # print(y.X)
 
-class myclass:
-    def __init__(self, name, age):
-        self.name=name
-        self.age=age
-    def __str__(a):
-        return f"{a.name} ({a.age})"
-p= myclass( 'John',30)
-print(p)
+# class myclass:
+#     def __init__(self, name, age):
+#         self.name=name
+#         self.age=age
+#     def __str__(a):
+#         return f"{a.name} ({a.age})"
+# p= myclass( 'John',30)
+# print(p)
 
-class yasmin:
-    def __init__(yes, name, age):
-        yes.name=name
-        yes.age=age
-    def mehattar(no):
-        print("my name is"+ " "+no.name +" " +"my age is"+ str(no.age))
-obj=yasmin("good",25)
-obj.mehattar()
+# class yasmin:
+#     def __init__(yes, name, age):
+#         yes.name=name
+#         yes.age=age
+#     def mehattar(no):
+#         print("my name is"+ " "+no.name +" " +"my age is"+ str(no.age))
+# obj=yasmin("good",25)
+# obj.mehattar()
+
+# class Teacher:
+#     def __init__(self, tname, sname):
+#         self.tname=tname
+#         self.sname=sname
+#     def board(chalk):
+#         print(chalk.tname,chalk.sname)
+# class Student(Teacher):
+#     pass 
+# m=Student("jetha","laal")
+# m.board()
+
+# class Teacher:
+#     def __init__(self, tname, sname):
+#         self.tname=tname
+#         self.sname=sname
+#     def board(chalk):
+#         print(chalk.tname,chalk.sname)
+# class Student(Teacher):
+#     def __init__(self, tname, sname):
+#         # Teacher.__init__(tname , sname)
+#         super().__init__(tname, sname)
+# x=Student("jetha","laal")
+# x.board()
+
+
+class Teacher:
+    def __init__(self, tname, sname):
+        self.tname=tname
+        self.sname=sname
+    def board(chalk):
+        print(chalk.tname,chalk.sname)
+class Student(Teacher):
+    def __init__(self, tname, sname,year):
+        # Teacher.__init__(tname , sname)
+        super().__init__(tname, sname)
+        self.graduationyear=year
+    def slate(pen):
+        print(pen.tname,pen.sname,pen.graduationyear)
+
+x=Student("jetha","laal",2025)
+x.board()
+print(x.graduationyear)
+x.slate()
+
+
 
 
     
