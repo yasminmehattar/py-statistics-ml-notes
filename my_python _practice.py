@@ -619,8 +619,36 @@ for x in (car1, boat1, plane1):
   print(x.brand)
   print(x.model)
 
+def fun():
+  x=600
+  print(x)
+fun()  
 
+def fun1():
+  x=100
+  def fun2():
+    print(x)
+  fun2()
+fun1()
 
-    
+x=200
+def fun3():
+  print(x)
+fun3()
+print(x)  
 
+x=20
+def mute():
+  global x
+  x=40
+mute()
+print(x)
 
+def no():
+  x="hello"
+  def yes():
+    nonlocal x
+    x="hi"
+  yes()
+  return x
+print(no())
