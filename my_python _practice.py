@@ -586,63 +586,63 @@ List items are indexed,'''
 # for y in another:
 #     print(y)
 
-class Car:
-  def __init__(self, brand, model):
-    self.brand = brand
-    self.model = model
+# class Car:
+#   def __init__(self, brand, model):
+#     self.brand = brand
+#     self.model = model
 
-  def move(self):
-    print("Drive!")
+#   def move(self):
+#     print("Drive!")
 
-class Boat:
-  def __init__(self, brand, model):
-    self.brand = brand
-    self.model = model
+# class Boat:
+#   def __init__(self, brand, model):
+#     self.brand = brand
+#     self.model = model
 
-  def move(self):
-    print("Sail!")
+#   def move(self):
+#     print("Sail!")
 
-class Plane:
-  def __init__(self, brand, model):
-    self.brand = brand
-    self.model = model
+# class Plane:
+#   def __init__(self, brand, model):
+#     self.brand = brand
+#     self.model = model
 
-  def move(self):
-    print("Fly!")
+#   def move(self):
+#     print("Fly!")
 
-car1 = Car("Ford", "Mustang")       #Create a Car object
-boat1 = Boat("Ibiza", "Touring 20") #Create a Boat object
-plane1 = Plane("Boeing", "747")     #Create a Plane object
+# car1 = Car("Ford", "Mustang")       #Create a Car object
+# boat1 = Boat("Ibiza", "Touring 20") #Create a Boat object
+# plane1 = Plane("Boeing", "747")     #Create a Plane object
 
-for x in (car1, boat1, plane1):
-  x.move()
-  print(x.brand)
-  print(x.model)
+# for x in (car1, boat1, plane1):
+#   x.move()
+#   print(x.brand)
+#   print(x.model)
 
-def fun():
-  x=600
-  print(x)
-fun()  
+# def fun():
+#   x=600
+#   print(x)
+# fun()  
 
-def fun1():
-  x=100
-  def fun2():
-    print(x)
-  fun2()
-fun1()
+# def fun1():
+#   x=100
+#   def fun2():
+#     print(x)
+#   fun2()
+# fun1()
 
-x=200
-def fun3():
-  print(x)
-fun3()
-print(x)  
+# x=200
+# def fun3():
+#   print(x)
+# fun3()
+# print(x)  
 
-x=20
-def mute():
-  global x
-  x=40
-mute()
-print(x)
+# x=20
+# def mute():
+#   global x
+#   x=40
+# mute()
+# print(x)
 
 def no():
   x="hello"
