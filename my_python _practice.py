@@ -652,3 +652,19 @@ def no():
   yes()
   return x
 print(no())
+
+# import module
+# module.greetings("yasmin")
+
+import module as md
+md.greetings("Dhanush")
+
+
+# from module import person1
+# print(person1["skill"])
+
+# print(dir(module))
+
+# import platform
+# x=platform.system
+# print(x)
