@@ -644,20 +644,20 @@ List items are indexed,'''
 # mute()
 # print(x)
 
-def no():
-  x="hello"
-  def yes():
-    nonlocal x
-    x="hi"
-  yes()
-  return x
-print(no())
+# def no():
+#   x="hello"
+#   def yes():
+#     nonlocal x
+#     x="hi"
+#   yes()
+#   return x
+# print(no())
 
-# import module
-# module.greetings("yasmin")
+# # import module
+# # module.greetings("yasmin")
 
-import module as md
-md.greetings("Dhanush")
+# import module as md
+# md.greetings("Dhanush")
 
 
 # from module import person1
@@ -705,6 +705,12 @@ md.greetings("Dhanush")
 
 # import math
 # print(math.sqrt(9))
+# print("a", end="")
+# print("b",end="")
+# print()
+# print("c",end="")
 
-import json
-json.loads()
+print("marks\t", 80.5)
+
+# import json
+# json.loads()
