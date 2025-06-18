@@ -681,27 +681,30 @@ md.greetings("Dhanush")
 # print(y.strftime("%B"))
 # print(y.strftime("%a"))
 
-x=min(2,8,9,30)
-y=max(5,95,52,63)
-print(x)
-print(y)
-X=abs(-7895)#The abs() function returns the absolute (positive) value of the specified number
-print(X)
+# x=min(2,8,9,30)
+# y=max(5,95,52,63)
+# print(x)
+# print(y)
+# X=abs(-7895)#The abs() function returns the absolute (positive) value of the specified number
+# print(X)
 
-b=pow(6,3)
-print(b)
+# b=pow(6,3)
+# print(b)
 
-import math
-v=math.sqrt(256)
-print(v)
+# import math
+# v=math.sqrt(256)
+# print(v)
 
-c=math.ceil(1.25)
-z=math.floor(2.669)
-print(c)
-print(z)
+# c=math.ceil(1.25)
+# z=math.floor(2.669)
+# print(c)
+# print(z)
 
-n=math.pi
-print(n)
+# n=math.pi
+# print(n)
 
-import math
-print(math.sqrt(9))
+# import math
+# print(math.sqrt(9))
+
+import json
+json.loads()
