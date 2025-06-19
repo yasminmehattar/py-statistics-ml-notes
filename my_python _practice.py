@@ -712,39 +712,42 @@ List items are indexed,'''
 
 # print("marks\t", 80.5)
 
-import json
-x = '{ "name":"John", "age":30, "city":"New York"}'
-y=json.loads(x)
-print(y["age"])
+# import json
+# x = '{ "name":"John", "age":30, "city":"New York"}'
+# y=json.loads(x)
+# print(y["age"])
 
-x = {
-  "name": "John",
-  "age": 30,
-  "city": "New York"
-}
-y=json.dumps(x)
-print(y)
-print(type(x))
-print(type(y))
-g=json.dumps("hello")
-print(type(g))
+# x = {
+#   "name": "John",
+#   "age": 30,
+#   "city": "New York"
+# }
+# y=json.dumps(x)
+# print(y)
+# print(type(x))
+# print(type(y))
+# g=json.dumps("hello")
+# print(type(g))
 
 
-x = {
-  "name": "John",
-  "age": 30,
-  "married": True,
-  "divorced": False,
-  "children": ("Ann","Billy"),
-  "pets": None,
-  "cars": [
-    {"model": "BMW 230", "mpg": 27.5},
-    {"model": "Ford Edge", "mpg": 24.1}
-  ]
-}
+# x = {
+#   "name": "John",
+#   "age": 30,
+#   "married": True,
+#   "divorced": False,
+#   "children": ("Ann","Billy"),
+#   "pets": None,
+#   "cars": [
+#     {"model": "BMW 230", "mpg": 27.5},
+#     {"model": "Ford Edge", "mpg": 24.1}
+#   ]
+# }
 
-print(type(x))
-y=json.dumps(x)
-print(type(y))
-print(json.dumps(x,indent=2))
-
+# print(type(x))
+# y=json.dumps(x)
+# print(type(y))
+# print(json.dumps(x,indent=2))
+try:
+ print(x)
+except:
+ print("an error occured")
