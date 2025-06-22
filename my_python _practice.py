@@ -747,7 +747,56 @@ List items are indexed,'''
 # y=json.dumps(x)
 # print(type(y))
 # print(json.dumps(x,indent=2))
+# try:
+#  print(x)
+# except:
+#  print("an error occured")
+
+# try:
+#   print(x)
+# except NameError:
+#  print("an error occured")
+# except:
+#  print("something went wrong")
+
+# try:
+#   print("Hello")
+# except NameError:
+#  print("an error occured")
+# else:
+#  print("something went wrong")
+
+# try:
+#   print("Hello")
+# except NameError:
+#  print("an error occured")
+# finally:
+#  print("something went wrong")
+
+# try:
+#   print(x)
+# except NameError:
+#  print("an error occured")
+# finally:
+#  print("something went wrong")
+
+#  x=-1
+#  if x<0:
+#   raise Exception("there is no number below 0")
+ 
+# x="hello"
+
+# if not type(x) is int:
+#   raise TypeError("only allows intergers")
+
+X=5
 try:
- print(x)
-except:
- print("an error occured")
+  if not type(X) is int:
+    raise TypeError("only allows integers")
+except TypeError as e:
+  print(e)
+  
+
+money=20
+message=f"I have {money} rupees"
+print(message)
