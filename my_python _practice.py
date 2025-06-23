@@ -789,14 +789,15 @@ List items are indexed,'''
 # if not type(x) is int:
 #   raise TypeError("only allows intergers")
 
-X=5
-try:
-  if not type(X) is int:
-    raise TypeError("only allows integers")
-except TypeError as e:
-  print(e)
-  
 
-money=20
-message=f"I have {money} rupees"
-print(message)
+
+y = True
+while y == True:
+  x = input("Enter a number:")
+  try:
+    x = float(x);
+    y = False
+  except ValueError:
+    print("Wrong input, please try again.")
+
+print("Thank you!")
