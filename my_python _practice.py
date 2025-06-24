@@ -791,13 +791,13 @@ List items are indexed,'''
 
 
 
-y = True
-while y == True:
-  x = input("Enter a number:")
-  try:
-    x = float(x);
-    y = False
-  except ValueError:
-    print("Wrong input, please try again.")
+# y = True
+# while y == True:
+#   x = input("Enter a number:")
+#   try:
+#     x = float(x);
+#     y = False
+#   except ValueError:
+#     print("Wrong input, please try again.")
 
-print("Thank you!")
+# print("Thank you!")
