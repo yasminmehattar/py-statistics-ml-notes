@@ -29,5 +29,6 @@ SELECT * FROM Products
 ORDER BY Price DESC;
 SELECT * FROM Products
 ORDER BY ProductName;
-SELECT * FROM Customers
+SELECT* FROM Customers
 ORDER BY Country ASC, CustomerName DESC;
+
