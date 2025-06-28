@@ -13,13 +13,13 @@ SELECT COUNT(DISTINCT Country) FROM Customers;
 SELECT Count(*) AS DistinctCountries
 FROM (SELECT DISTINCT Country FROM Customers);
 
-Where:
-SELECT * FROM Customers
-WHERE Country='Mexico';
-SELECT * FROM Customers
-WHERE CustomerID=1;
-SELECT * FROM Customers
-WHERE CustomerID > 80;
+// Where:
+// SELECT * FROM Customers
+// WHERE Country='Mexico';
+// SELECT * FROM Customers
+// WHERE CustomerID=1;
+// SELECT * FROM Customers
+// WHERE CustomerID > 80;
 
 
 Order By:
