@@ -3,15 +3,15 @@ SQL stands for Structured Query Language
 An RDBMS database program (i.e. MS Access, SQL Server, MySQL)
 RDBMS stands for Relational Database Management System.
 
-Select all records from the Customers table:
-SELECT * FROM Customers;
-SELECT CustomerName, City FROM Customers;
+// Select all records from the Customers table:
+// SELECT * FROM Customers;
+// SELECT CustomerName, City FROM Customers;
 
-Distinct:
-SELECT DISTINCT Country FROM Customers;
-SELECT COUNT(DISTINCT Country) FROM Customers;
-SELECT Count(*) AS DistinctCountries
-FROM (SELECT DISTINCT Country FROM Customers);
+// Distinct:
+// SELECT DISTINCT Country FROM Customers;
+// SELECT COUNT(DISTINCT Country) FROM Customers;
+// SELECT Count(*) AS DistinctCountries
+// FROM (SELECT DISTINCT Country FROM Customers);
 
 // Where:
 // SELECT * FROM Customers
