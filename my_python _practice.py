@@ -801,3 +801,14 @@ List items are indexed,'''
 #     print("Wrong input, please try again.")
 
 # print("Thank you!")
+
+num = 18
+
+while num >= 10:
+    print(num)
+    num += 1
+    if num> 30:
+         break
+ 
+      
+
