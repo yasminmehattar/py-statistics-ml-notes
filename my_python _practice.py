@@ -809,6 +809,10 @@ while num >= 10:
     num += 1
     if num> 30:
          break
- 
-      
+print("Hello Yasmin")
+name = input("Enter your name: ")
+
+print("Hello ", name)
+
+print(r'c:\doc\yasmin')
 
