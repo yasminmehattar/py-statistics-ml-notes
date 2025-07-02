@@ -816,3 +816,12 @@ print("Hello ", name)
 
 print(r'c:\doc\yasmin')
 
+x=10
+y=3
+print(x+y)
+nums=[2,8,56,52,89,564,147,1,5,6,7,8,9]
+nums.sort()
+nums.append(100)
+nums.insert(2, 200)
+
+
