@@ -802,27 +802,70 @@ List items are indexed,'''
 
 # print("Thank you!")
 
-num = 18
+# num = 18
 
-while num >= 10:
-    print(num)
-    num += 1
-    if num> 30:
-         break
-print("Hello Yasmin")
-name = input("Enter your name: ")
+# while num >= 10:
+#     print(num)
+#     num += 1
+#     if num> 30:
+#          break
+# print("Hello Yasmin")
+# name = input("Enter your name: ")
 
-print("Hello ", name)
+# print("Hello ", name)
 
-print(r'c:\doc\yasmin')
+# print(r'c:\doc\yasmin')
 
-x=10
-y=3
-print(x+y)
-nums=[2,8,56,52,89,564,147,1,5,6,7,8,9]
-nums.sort()
-nums.append(100)
-nums.insert(2, 200)
-print(nums)
+# x=10
+# y=3
+# print(x+y)
+# nums=[2,8,56,52,89,564,147,1,5,6,7,8,9]
+# nums.sort()
+# nums.append(100)
+# nums.insert(2, 200)
+# print(nums)
+# print(nums[2:5])
+# nums.pop()
+# nums.pop(4)
+# nums.remove(7)
+# nums.extend([88,63,12])
+# g=min(nums)
+# print(nums)
+# print(g)
 
-
+# a=["dog","goat","cat"]
+# b=["grey","black","white"]
+# data=dict(zip(a,b))
+# print(data)
+# n=data.get("dog")
+# print(n)
+# v=data.get("moo", "notfound")
+# print(v)
+# data["ox"]="red"
+# print(data)
+# del data["goat"]
+# print(data)
+# shirts={"crop top":"grey", "lehengas": ["short","long","medium"],"kurtas":{"top":"leggin","kurta":"plazzo"}}
+# print(shirts)
+# m=shirts.get("lehengas")
+# print(m)
+# size=m[1]
+# print(size)
+# Kur=shirts["kurtas"]
+# print(Kur)
+# k=Kur["kurta"]
+# print(k)
+# o=shirts["lehengas"][2]
+# print(o)
+# help()
+# print(help)
+# help("topics")
+# print(help)# %%
+# help("list")
+s=45
+print(s)
+print(id(s))
+y=s
+print(id(y))
+g=6
+print(id(g))
