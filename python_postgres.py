@@ -22,12 +22,16 @@ try:
                         salary int,
                         dept_id varchar(30)
                         )'''
-    alter_script='''ALTER TABLE EMPLOYEE
-                    ADD column email varchar(100) NOT NULL,
-                    ADD COLUMN joining_date DATE
-                    '''
     cur.execute(create_script)
-    cur.execute(alter_script)
+    # alter_script='''ALTER TABLE EMPLOYEE
+    #                 ADD column email varchar(100) NOT NULL,
+    #                 ADD COLUMN joining_date DATE
+    #                 '''
+    # cur.execute(alter_script)
+    insert_script= 'INSERT INTO EMPLOYEE(id,name,salary,dept_id,email,joining_date) values(%s,%s,%s,%s,%s,%s)'
+    insert_values=[(1,"yasmin",100000,"IT","yasmin@gmail.com",'2022-01-20'),(2,"yasin",50000,"IT","yasin@gmail.com",'2021-02-22'),(3,"mehattar",70000,"IT","yasmi@gmail.com",'2023-09-24')]
+   
+    cur.executemany(insert_script,insert_values)
     conn.commit()
     
 except Exception as error:
