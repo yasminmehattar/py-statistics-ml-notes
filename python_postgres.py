@@ -16,12 +16,12 @@ try:
         port=port_id)
     cur = conn.cursor()
 
-    create_script=''' CREATE TABLE IF NOT EXISTS EMPLOYEE(
-                        id  int PRIMARY KEY,
-                        name  varchar(40) NOT NULL,
-                        salary int,
-                        dept_id varchar(30)
-                        )'''
+    # create_script=''' CREATE TABLE IF NOT EXISTS EMPLOYEE(
+    #                     id  int PRIMARY KEY,
+    #                     name  varchar(40) NOT NULL,
+    #                     salary int,
+    #                     dept_id varchar(30)
+    #                     )'''
     cur.execute(create_script)
     # alter_script='''ALTER TABLE EMPLOYEE
     #                 ADD column email varchar(100) NOT NULL,
