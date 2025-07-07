@@ -7,14 +7,14 @@ pwd='Ispace@9876'
 port_id= 5432
 conn=None
 cur=None
-try:
-    conn = psycopg2.connect(
-        host=hostname,
-        dbname=database,
-        user=username,
-        password=pwd,
-        port=port_id)
-    cur = conn.cursor()
+# try:
+#     conn = psycopg2.connect(
+#         host=hostname,
+#         dbname=database,
+#         user=username,
+#         password=pwd,
+#         port=port_id)
+#     cur = conn.cursor()
 
     # create_script=''' CREATE TABLE IF NOT EXISTS EMPLOYEE(
     #                     id  int PRIMARY KEY,
