@@ -1,12 +1,12 @@
 import psycopg2
 
-hostname='localhost'
-database='postgres'
-username='postgres'
-pwd='Ispace@9876'
-port_id= 5432
-conn=None
-cur=None
+# hostname='localhost'
+# database='postgres'
+# username='postgres'
+# pwd='Ispace@9876'
+# port_id= 5432
+# conn=None
+# cur=None
 # try:
 #     conn = psycopg2.connect(
 #         host=hostname,
