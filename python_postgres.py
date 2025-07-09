@@ -36,11 +36,11 @@ import psycopg2
     
 except Exception as error:
 
-    print(error)
-finally:
-    if cur is not None:
-        cur.close()
-    if conn is not None:
-        conn.close()
+#     print(error)
+# finally:
+#     if cur is not None:
+#         cur.close()
+#     if conn is not None:
+#         conn.close()
 
 
