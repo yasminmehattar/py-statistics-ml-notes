@@ -22,7 +22,7 @@ import psycopg2
     #                     salary int,
     #                     dept_id varchar(30)
     #                     )'''
-    cur.execute(create_script)
+    # cur.execute(create_script)
     # alter_script='''ALTER TABLE EMPLOYEE
     #                 ADD column email varchar(100) NOT NULL,
     #                 ADD COLUMN joining_date DATE
@@ -34,7 +34,7 @@ import psycopg2
     # cur.executemany(insert_script,insert_values)
     # conn.commit()
     
-except Exception as error:
+# except Exception as error:
 
 #     print(error)
 # finally:
