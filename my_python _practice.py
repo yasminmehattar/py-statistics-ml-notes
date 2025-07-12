@@ -861,11 +861,11 @@ List items are indexed,'''
 # print(help)
 # help("topics")
 # print(help)# %%
-# help("list")
-s=45
-print(s)
-print(id(s))
-y=s
-print(id(y))
-g=6
-print(id(g))
+# # help("list")
+# s=45
+# print(s)
+# print(id(s))
+# y=s
+# print(id(y))
+# g=6
+# print(id(g))
