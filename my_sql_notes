@@ -22,13 +22,13 @@ RDBMS stands for Relational Database Management System.
 // WHERE CustomerID > 80;
 
 
-Order By:
-SELECT * FROM Products
-ORDER BY Price;
-SELECT * FROM Products
-ORDER BY Price DESC;
-SELECT * FROM Products
-ORDER BY ProductName;
-SELECT* FROM Customers
-ORDER BY Country ASC, CustomerName DESC;
+-- Order By:
+-- SELECT * FROM Products
+-- ORDER BY Price;
+-- SELECT * FROM Products
+-- ORDER BY Price DESC;
+-- SELECT * FROM Products
+-- ORDER BY ProductName;
+-- SELECT* FROM Customers
+-- ORDER BY Country ASC, CustomerName DESC;
 
