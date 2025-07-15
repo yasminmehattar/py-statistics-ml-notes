@@ -3,7 +3,7 @@ def greetings(name):
 person1={
     "name":"yasmin",
     "designation":"DEV",
-    "skill":"Python",
-    "country":"India"
+    # "skill":"Python",
+    # "country":"India"
 }
 
