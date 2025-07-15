@@ -19,7 +19,7 @@ RDBMS stands for Relational Database Management System.
 // SELECT * FROM Customers
 // WHERE CustomerID=1;
 // SELECT * FROM Customers
-// WHERE CustomerID > 80;
+-- // WHERE CustomerID > 80;
 
 
 -- Order By:
