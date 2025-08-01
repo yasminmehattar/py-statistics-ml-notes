@@ -869,6 +869,9 @@ List items are indexed,'''
 # print(id(y))
 # g=6
 # print(id(g))
+
+
+print("flight tickets")
 class Flight():
     def __init__(self,capacity):
         self.capacity= capacity
