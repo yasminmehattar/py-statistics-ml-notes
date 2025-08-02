@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multiple Button</title>
+        <script>
+            let counter=0;
+            function updatedispaly(){
+                document.querySelector('h1').innerHTML="count:"+counter
+            }
+            function increment(value){
+                counter+=value;
+                updatedispaly()
+                if(counter % 10 === 0){
+                    alert(`count is now${counter}`)
+                }
+            }
+            function reset(){
+                counter=0;
+                updatedispaly()
+            }
+            document.addEventListener("DOMContentLoaded", function (){
+                document.querySelector('#add1').addEventListener("click",function(){
+                    increment(1)
+                })
+                document.querySelector('#add5').addEventListener("click",function(){
+                    increment(5)
+                })
+                document.querySelector('#reset').addEventListener("click",function(){
+                    reset()
+                })
+            })
+        </script>
+        
+    </head>
+    <body>
+        <h1>Count:0</h1>
+        <button id="add1">Add One</button>
+        <button id="add5">Add five</button>
+        <button id="reset">Reset</button>
+    </body>
+</html>
