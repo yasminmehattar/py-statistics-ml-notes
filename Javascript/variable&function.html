@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Variable&function</title>
+        <script>
+            let counter=0;
+            function count(){
+                counter++;
+                updatedispaly()
+            }
+            function reset(){
+                counter=0
+                updatedispaly()
+            }
+            function updatedispaly(){
+                document.querySelector('h1').innerHTML = "Count:"+counter
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Count:0</h1>
+        <button onclick="count()">Count</button>
+        <button onclick="reset()">Reset</button>
+    </body>
+
+</html>
