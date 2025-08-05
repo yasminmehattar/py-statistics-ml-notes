@@ -20,6 +20,7 @@
                 document.querySelector('#add5').addEventListener("click",function(){
                     increment(5)
                 })
+                setInterval(counter,1000)
                 document.querySelector('#reset').addEventListener("click",function(){
                     reset()
                 })
